@@ -42,9 +42,12 @@ Lets start with a brief introduction of OSI Model (The Open Systems Interconnect
 
 - The presentation layer is responsible for translating data between different formats and encodings. It ensures that data sent by one application can be understood by another, even if they use different data representations.
 
-  <p -- 1st step : Translation -> Transform data into binary code.\n>
-  <p -- 2nd step : Compression -> Make data light. (When you send a message with WhatsApp you may had noticed that the                    picture's / video's size is less than its old size)\n>
-  <p -- 3rd step : Crypting / Decrypting -> Make the data invincible.\n>
+  -- 1st step : Translation -> Transform data into binary code.
+  <br/>
+  -- 2nd step : Compression -> Make data light. (When you send a message with WhatsApp you may had noticed that the                    picture's / video's size is less than its old size)
+  <br/>
+  -- 3rd step : Crypting / Decrypting -> Make the data invincible.
+  <br/>
 
 #### Session Layer :
 
