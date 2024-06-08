@@ -26,7 +26,7 @@ TCP stands for **Transmission Control Protocol**. It is a communications standar
 
 TCP guarantees the integrity of the data being communicated over a network. Before it transmits data, TCP establishes a connection between a source and its destination, which remains active until communication begins. It then breaks large amounts of data into smaller packets, while ensuring end-to-end delivery without loss of any data.
 <p align="centre">
- <img width="1907" height="1000" alt="Screen Shot 2024-06-08 at 1 15 38 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/c75f4abf-d58b-4421-a148-e36006cab9b3" alt="mask">
+ <img width="1000" height="500" alt="Screen Shot 2024-06-08 at 1 15 38 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/c75f4abf-d58b-4421-a148-e36006cab9b3" alt="mask">
 
 <div align="right">
   <b><a href="#top">↥ back to top</a></b>
