@@ -10,6 +10,7 @@
 
 - [Important concepts](#important-concepts) 
   - [TCP/IP](#tcp-transport-layer)
+  - [OSI Model](#osi-model)
   - [IP address](#ip-address-network-layer)
   - [Subnet mask](#subnet-mask)
   - [Switch](#switch)
@@ -20,9 +21,7 @@
 
 ## Important Concepts
 
-## TCP/IP :
-
-### OSI Model :
+## OSI Model :
 
 ![osi_model_7_layers](https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/9421fb56-f5f7-4be5-a5e0-c4f33250ec9e)
 
@@ -51,6 +50,13 @@ Lets start with a brief introduction of OSI Model (The Open Systems Interconnect
 
 #### Session Layer :
 
+<img width="1000" height="500" alt="Screen Shot 2024-06-08 at 5 00 48 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/7ddeb3ae-ade0-46cc-97af-a8fbedfe07fc">
+
+#### Transport Layer :
+
+-  The transport layer ensures end-to-end reliable data delivery, handling tasks like segmentation, flow control, and error correction. It provides features like error recovery, segmentation, and re-assembly.
+
+<img width="1000" height="500" alt="Screen Shot 2024-06-08 at 5 03 23 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/ba1feab8-c497-4324-9de4-f9986c13d9c9">
 
 
 TCP stands for **Transmission Control Protocol**. It is a communications standard that enables application programs and devices to exchange messages over a network. It is used to send packets across the internet.
