@@ -104,8 +104,7 @@ TCP guarantees the integrity of the data being communicated over a network. Befo
 ### IP Address: Network Layer
 
 </br>
-<p align="center">
-  <kbd><img src="https://github.com/lpaube/NetPractice/blob/main/img/ip1.png?raw=true" height=250 alt="mask"></kbd>
+<p align="center"> <img src="https://github.com/lpaube/NetPractice/blob/main/img/ip1.png?raw=true" height=250 alt="mask"></p>
 </p>
 </br>
 
