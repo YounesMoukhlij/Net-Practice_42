@@ -41,11 +41,11 @@ Lets start with a brief introduction of OSI Model (The Open Systems Interconnect
 
 - The presentation layer is responsible for translating data between different formats and encodings. It ensures that data sent by one application can be understood by another, even if they use different data representations.
 
-  -- 1st step : Translation -> Transform data into binary code.
+  -- ***1st step : Translation*** -> Transform data into binary code.
   <br/>
-  -- 2nd step : Compression -> Make data light. (When you send a message with WhatsApp you may had noticed that the                    picture's / video's size is less than its old size)
+  -- ***2nd step : Compression*** -> Make data light. (When you send a message with WhatsApp you may had noticed that the                    picture's / video's size is less than its old size)
   <br/>
-  -- 3rd step : Crypting / Decrypting -> Make the data invincible.
+  -- ***3rd step : Crypting / Decrypting*** -> Make the data invincible.
   <br/>
 
 #### Session Layer :
@@ -58,14 +58,14 @@ Lets start with a brief introduction of OSI Model (The Open Systems Interconnect
 
 <img width="1000" height="500" alt="Screen Shot 2024-06-08 at 5 03 23 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/ba1feab8-c497-4324-9de4-f9986c13d9c9">
 
-  -- 1st step : Segmentation -> Transform data into small packets, which gives to each packet with order (port number, sequence number). 
+  -- ***1st step : Segmentation*** -> Transform data into small packets, which gives to each packet with order (port number, sequence number). 
   <br/>
-  -- 2nd step : Flow Control -> Lets imagine this example a computer with a phone.
+  -- ***2nd step : Flow Control*** -> Lets imagine this example a computer with a phone.
   the computer's and phone's speed of transforming data is 100 Mbps and 10 Mbps, if the computer starts transforming data with a speed more than 10 Mbps the phone sends a message to the computer to lower the speed down so the phone could recieve packets proberly.
   
   <br/>
-  -- 3rd step : Determine Protocol -> TCP or UDP.
-<p align="centre" <img width="450" height="400" alt="Screen Shot 2024-06-08 at 3 30 08 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/b6b8c1cc-2842-4b1f-9bcb-dce78102c9ad"> /p>
+  -- ***3rd step : Determine Protocol*** -> TCP or UDP.
+<p align="centre" <img width="450" height="400" alt="Screen Shot 2024-06-08 at 3 30 08 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/b6b8c1cc-2842-4b1f-9bcb-dce78102c9ad"/> /p>
   
 * Reliability:
 TCP is a connection-oriented protocol, which means it establishes a reliable, end-to-end connection between the communicating devices. It ensures that data is delivered in the correct order and without any errors.
