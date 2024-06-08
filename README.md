@@ -5,9 +5,11 @@
 
 42 school's net_practice project is an introduction to IP addressing, subnet masks and routing. In a training interface, we must solve networking errors over 10 levels.
 
-## Status
+## Project Infos :
 
+Common Core Project.
 Validated : Grade: 100%.
+Check out my GitHub profile [Younes Moukhlij](https://github.com/YounesMoukhlij)
 
 <div id="top"></div>
 
@@ -841,6 +843,8 @@ With the IP addresses already entered (greyed out), let's examine the ranges cov
 4. _Router R2_ to _Client H3_ - ??? (mask ???).
 
 The only IP addresses left for the network "Router R2 to Client H3" are **70.101.30.192 - 70.101.30.251**. We can pick any mask that will let us take 2 IP addresses from that range to put in _Interface R22_ and _Interface R31_.
+
+**Autor** Younes Moukhlij.
 
   <div align="right">
   <b><a href="#top">↥ back to top</a></b>
