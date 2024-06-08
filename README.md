@@ -145,6 +145,34 @@ The CSMA protocol defines the rules and mechanisms that allow these devices to s
 </div>
 </br>
 
+### TCP/IP
+
+![image](https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/8f326585-4348-4070-a2f0-9543fec756c7)
+
+The TCP/IP (Transmission Control Protocol/Internet Protocol) model is a conceptual framework that describes how communication should take place on the internet and other IP-based networks. It is the de facto standard for modern computer networking and forms the foundation of the internet.
+
+The TCP/IP model consists of four distinct layers:
+
+1. Application Layer:
+   - This is the layer that interacts directly with the user or application.
+   - It defines protocols for specific application-level services, such as HTTP (web browsing), SMTP (email), FTP (file transfer), and DNS (domain name resolution).
+
+2. Transport Layer:
+   - The Transport Layer is responsible for end-to-end communication between applications.
+   - It provides protocols like TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) to ensure reliable data delivery, flow control, and error correction.
+
+3. Internet Layer:
+   - Also known as the Network Layer, this layer is responsible for logical addressing and routing of data packets across multiple networks.
+   - The primary protocol at this layer is IP (Internet Protocol), which handles logical addressing (IP addresses) and packet forwarding.
+
+4. Link Layer:
+   - The Link Layer deals with the physical and data link aspects of network communication.
+   - It encompasses the protocols and hardware specifications for transmitting data over the physical network medium, such as Ethernet, Wi-Fi, or other local area network (LAN) technologies.
+
+The TCP/IP model is simpler and more practical than the OSI (Open Systems Interconnection) reference model, which has seven distinct layers. The TCP/IP model focuses on the essential functionalities required for internetworking, making it the predominant model used in modern computer networks and the internet.
+
+The TCP/IP model has been widely adopted and has become the de facto standard for network communication, enabling the interconnectivity and interoperability of diverse devices and networks that make up the global internet infrastructure.
+
 ### IP Address: Network Layer
 
 </br>
