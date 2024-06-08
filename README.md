@@ -22,7 +22,10 @@
 
 </br>
 <p align="center">
-  <img src="./img/tcp-ip-stack.png" height=300 width=200 alt="mask">
+<img src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/28d056b9-59b6-4986-bd53-421afb7d8668" width="1907" height="100" alt="mask">
+
+![1_bPW69syx4qbQ6l2heZ38SA](https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/2d1a649b-a39c-4e9c-a506-cc7634362201)
+
 </p>
 </br>
 
@@ -30,7 +33,7 @@ TCP stands for **Transmission Control Protocol**. It is a communications standar
 
 TCP guarantees the integrity of the data being communicated over a network. Before it transmits data, TCP establishes a connection between a source and its destination, which remains active until communication begins. It then breaks large amounts of data into smaller packets, while ensuring end-to-end delivery without loss of any data.
 <p align="centre">
-  src=<img width="1907" alt="Screen Shot 2024-06-08 at 1 15 38 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/c75f4abf-d58b-4421-a148-e36006cab9b3">
+ <img width="1907" height="100" alt="Screen Shot 2024-06-08 at 1 15 38 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/c75f4abf-d58b-4421-a148-e36006cab9b3" alt="mask">
 
 <div align="right">
   <b><a href="#top">↥ back to top</a></b>
