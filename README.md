@@ -22,9 +22,9 @@
 
 </br>
 <p align="center">
-<img src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/28d056b9-59b6-4986-bd53-421afb7d8668" width="1907" height="100" alt="mask">
+<img src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/28d056b9-59b6-4986-bd53-421afb7d8668" w alt="mask">
 
-![1_bPW69syx4qbQ6l2heZ38SA](https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/2d1a649b-a39c-4e9c-a506-cc7634362201)
+
 
 </p>
 </br>
