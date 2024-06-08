@@ -40,15 +40,12 @@ Lets start with a brief introduction of OSI Model (The Open Systems Interconnect
 <img width="1000" height="500" alt="Screen Shot 2024-06-08 at 1 17 45 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/63facc4b-08c6-4a29-b1ae-6d736e488fbc">
 
 - The presentation layer is responsible for translating data between different formats and encodings. It ensures that data sent by one application can be understood by another, even if they use different data representations.
-<br>
+
   -- ***1st step : Translation*** -> Transform data into binary code.
-  <br/>
-  <br>
+ 
   -- ***2nd step : Compression*** -> Make data light. (When you send a message with WhatsApp you may had noticed that the                    picture's / video's size is less than its old size)
-  <br/>
-  <br>
+  
   -- ***3rd step : Crypting / Decrypting*** -> Make the data invincible.
-  <br/>
 
 #### Session Layer :
 
@@ -60,7 +57,8 @@ Lets start with a brief introduction of OSI Model (The Open Systems Interconnect
 
 <img width="1000" height="500" alt="Screen Shot 2024-06-08 at 5 03 23 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/ba1feab8-c497-4324-9de4-f9986c13d9c9">
 
-  -- ***1st step : Segmentation*** -> Transform data into small packets, which gives to each packet with order (port number, sequence number). 
+
+  -- ***1st step : Segmentation*** -> Transform data into small segment, which gives to each segment with order (port number, sequence number). 
 
   -- ***2nd step : Flow Control*** -> Lets imagine this example a computer with a phone.
   the computer's and phone's speed of transforming data is 100 Mbps and 10 Mbps, if the computer starts transforming data with a speed more than 10 Mbps the phone sends a message to the computer to lower the speed down so the phone could recieve packets proberly.
@@ -72,7 +70,7 @@ Lets start with a brief introduction of OSI Model (The Open Systems Interconnect
 </p>
   
 * Reliability:
-TCP is a connection-oriented protocol, which means it establishes a reliable, end-to-end connection between the communicating devices. It ensures that data is delivered in the correct order and without any errors.
+TCP stands for **Transmission Control Protocol**. It is a communications standard that enables application programs and devices to exchange messages over a network. It is used to send packets across the internet.
 UDP is a connectionless protocol, which means it does not establish a dedicated connection. It simply sends data packets without any guarantee of delivery, order, or error-checking.
 
 * Connection Establishment:
@@ -91,11 +89,11 @@ UDP has a lower overhead as it does not need to maintain a connection or handle 
 TCP is commonly used for applications that require reliable data transmission, such as web browsing, file transfers, and email.
 UDP is often used for applications that prioritize speed over reliability, such as real-time applications (e.g., video streaming, online gaming, and VoIP).
 
-TCP stands for **Transmission Control Protocol**. It is a communications standard that enables application programs and devices to exchange messages over a network. It is used to send packets across the internet.
-
 TCP guarantees the integrity of the data being communicated over a network. Before it transmits data, TCP establishes a connection between a source and its destination, which remains active until communication begins. It then breaks large amounts of data into smaller packets, while ensuring end-to-end delivery without loss of any data.
 
+#### Network Layer :
 
+<img align="center" width="1000" height="500" alt="Screen Shot 2024-06-08 at 5 55 01 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/c9958733-af14-40aa-b6f3-bace2ef8a132">
 
 <div align="right">
   <b><a href="#top">↥ back to top</a></b>
