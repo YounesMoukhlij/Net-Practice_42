@@ -364,7 +364,7 @@ A routing table is a data table stored in a router or a network host that lists 
 <details>
   <summary>Level 1</summary>
   <br>
-  <img src="https://github.com/LPaube/42_NetPractice/blob/main/img/level1_paint.png?raw=true" alt="level1">  
+<img width="1142" alt="Level 1" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/73631580-1663-4b8f-b57b-c50e7ec1907c">
   <br>
   <br>
 
@@ -398,7 +398,7 @@ The solution will be anything in the range of **211.191.0.0 - 211.191.255.255**,
 <details>
   <summary>Level 2</summary>
   <br>
-  <img src="https://github.com/LPaube/42_NetPractice/blob/main/img/level2_paint.png?raw=true" alt="level2">
+<img width="1013" alt="Level 2" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/2679df93-fe5f-4daf-8fcd-0754d3b8dfcf">
   <br>
   <br>
 
@@ -467,7 +467,7 @@ The answers can then be any address, as long as they meet the following conditio
 <details>
   <summary>Level 3</summary>
   <br>
-  <img src="https://github.com/LPaube/42_NetPractice/blob/main/img/level3_paint.png?raw=true" alt="level3">
+<img width="1003" alt="Level 3" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/3b042c7e-e4ba-4555-a72e-b1d30033fa96">
   <br>
   <br>
 
@@ -501,7 +501,7 @@ The IP address of _Interface B1_ and _Interface C1_ must be on the same network 
 <details>
   <summary>Level 4</summary>
   <br>
-  <img src="https://github.com/LPaube/42_NetPractice/blob/main/img/level4_paint.png?raw=true" alt="level4">
+<img width="1086" alt="Level 4" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/a72ce1d1-819b-4629-9a12-1a2af743aaf7">
   <br>
   <br>
 
@@ -539,7 +539,7 @@ Note that we did not interact with the router _Interface R2_ and _Interface R3_,
 <details>
   <summary>Level 5</summary>
   <br>
-  <img src="https://github.com/LPaube/42_NetPractice/blob/main/img/level5_paint.png?raw=true" alt="level5">
+<img width="1260" alt="Level 5" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/25248f8a-9ef7-4b67-a2a5-d8e685553da1">
   <br>
   <br>
 
@@ -570,7 +570,7 @@ The next hop address must be the IP address of the next router's interface on th
 <details>
   <summary>Level 6</summary>
   <br>
-  <img src="https://github.com/LPaube/42_NetPractice/blob/main/img/level6_paint.png?raw=true" alt="level6">
+  <img width="1207" alt="Level 6" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/99410649-dee1-409d-b42a-ff956bd2543f">
   <br>
   <br>
 
@@ -632,7 +632,7 @@ A destination of _40.178.145.227/25_ is equivalent to the destination address _4
 <details>
   <summary>Level 7</summary>
   <br>
-  <img src="https://github.com/LPaube/42_NetPractice/blob/main/img/level7_paint.png?raw=true" alt="level7">
+<img width="1242" alt="Level 7" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/4653e83c-8f62-40b0-a39a-761d44e0ac02">
   <br>
   <br>
 
@@ -675,7 +675,7 @@ https://www.calculator.net/ip-subnet-calculator.html?cclass=any&csubnet=28&cip=9
 <details>
   <summary>Level 8</summary>
   <br>
-  <img src="https://github.com/LPaube/42_NetPractice/blob/main/img/level8_paint.png?raw=true" alt="level8">
+<img width="1061" alt="Level 8" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/79fe126e-452c-4483-a01c-2a33a59ac8e4">
   <br>
   <br>
 
@@ -720,7 +720,7 @@ Note that the network address (first) and the broadcast address (last) must be e
 <details>
   <summary>Level 9</summary>
   <br>
-  <img src="https://github.com/LPaube/42_NetPractice/blob/main/img/level9_paint.png?raw=true" alt="level9">
+  <img width="1160" alt="Level 9" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/e25009d0-fb1f-45c6-88fb-23183f3ffce6">
   <br>
   <br>
 
@@ -751,7 +751,7 @@ It is normal to have an empty field for the 3rd destination of the _internet_, a
 <details>
   <summary>Level 10</summary>
   <br>
-  <img src="https://github.com/LPaube/42_NetPractice/blob/main/img/level10_paint.png?raw=true" alt="level10">
+<img width="1024" alt="Level 10" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/8842f2fc-1bd4-45a9-b74c-903ab4465bd4">
   <br>
   <br>
 
