@@ -66,7 +66,7 @@ Lets start with a brief introduction of OSI Model (The Open Systems Interconnect
   -- ***3rd step : Determine Protocol*** -> TCP or UDP.
  
 <p align="center">
-  <img width="450" height="400" alt="Screen Shot 2024-06-08 at 3 30 08 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/b6b8c1cc-2842-4b1f-9bcb-dce78102c9ad"/> 
+  <img width="1000" height="500" alt="Screen Shot 2024-06-08 at 3 30 08 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/b6b8c1cc-2842-4b1f-9bcb-dce78102c9ad"/> 
 </p>
   
 * Reliability:
@@ -94,6 +94,23 @@ TCP guarantees the integrity of the data being communicated over a network. Befo
 #### Network Layer :
 
 <img align="center" width="1000" height="500" alt="Screen Shot 2024-06-08 at 5 55 01 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/c9958733-af14-40aa-b6f3-bace2ef8a132">
+
+The network layer is responsible for logical addressing and routing of data packets between different networks. It determines the best path for data to travel from the source to the destination.
+
+**Logical Addressing:**
+
+The Network Layer is responsible for assigning logical addresses, such as IP addresses (IPv4 or IPv6), to devices on the network.
+These logical addresses are used to identify the source and destination of data packets as they traverse the network.
+
+**Routing:**
+
+The Network Layer determines the best path for data packets to travel from the source to the destination across multiple networks.
+It uses routing algorithms and protocols, such as OSPF (Open Shortest Path First), BGP (Border Gateway Protocol), or RIP (Routing Information Protocol), to make routing decisions.
+The router, a Network Layer device, is responsible for forwarding data packets based on the destination address and the routing table information.
+
+#### Data Link Layer:
+
+<img width="1133" alt="Screen Shot 2024-06-08 at 6 31 11 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/f3a3182e-e70c-4b37-a54a-03f7fdbc1410">
 
 <div align="right">
   <b><a href="#top">↥ back to top</a></b>
