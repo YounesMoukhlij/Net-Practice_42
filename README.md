@@ -145,14 +145,6 @@ The CSMA protocol defines the rules and mechanisms that allow these devices to s
 </div>
 </br>
 
----
-
-
-
-
-
-
-
 ### IP Address: Network Layer
 
 </br>
