@@ -9,8 +9,8 @@
 ## Table of Contents
 
 - [Important concepts](#important-concepts) 
-  - [TCP/IP](#tcp-transport-layer)
   - [OSI Model](#osi-model)
+  - [TCP/IP](#tcp-transport-layer)
   - [IP address](#ip-address-network-layer)
   - [Subnet mask](#subnet-mask)
   - [Switch](#switch)
@@ -40,11 +40,13 @@ Lets start with a brief introduction of OSI Model (The Open Systems Interconnect
 <img width="1000" height="500" alt="Screen Shot 2024-06-08 at 1 17 45 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/63facc4b-08c6-4a29-b1ae-6d736e488fbc">
 
 - The presentation layer is responsible for translating data between different formats and encodings. It ensures that data sent by one application can be understood by another, even if they use different data representations.
-
+<br>
   -- ***1st step : Translation*** -> Transform data into binary code.
   <br/>
+  <br>
   -- ***2nd step : Compression*** -> Make data light. (When you send a message with WhatsApp you may had noticed that the                    picture's / video's size is less than its old size)
   <br/>
+  <br>
   -- ***3rd step : Crypting / Decrypting*** -> Make the data invincible.
   <br/>
 
