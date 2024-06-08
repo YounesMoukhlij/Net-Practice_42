@@ -200,7 +200,7 @@ The CSMA protocol defines the rules and mechanisms that allow these devices to s
 </div>
 </br>
 
-### TCP/IP
+## TCP/IP:
 
 ![image](https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/8f326585-4348-4070-a2f0-9543fec756c7)
 
