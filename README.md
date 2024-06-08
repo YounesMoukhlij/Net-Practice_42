@@ -110,7 +110,35 @@ The router, a Network Layer device, is responsible for forwarding data packets b
 
 #### Data Link Layer:
 
-<img width="1133" alt="Screen Shot 2024-06-08 at 6 31 11 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/f3a3182e-e70c-4b37-a54a-03f7fdbc1410">
+<img width="1000" height="500" alt="Screen Shot 2024-06-08 at 6 37 51 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/813fe4bd-c3a3-4cc5-96b5-5830d03dca93">
+
+##### Error Detection:
+The Data Link Layer employs various error detection techniques to identify errors in the transmitted data. Some common error detection methods include:
+
+****Parity Checking:**** The sender adds an extra bit (parity bit) to the data frame, which represents the parity (even or odd) of the data bits. The receiver can then check the parity of the received data and detect if any single-bit errors have occurred.
+
+<img width="895" alt="Screen Shot 2024-06-08 at 7 43 14 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/3dd7b2b2-f5e6-44d2-8337-05e1ecca9af3">
+
+****Checksum:**** The sender calculates a checksum (e.g., using algorithms like CRC - Cyclic Redundancy Check) on the data and includes it in the frame. The receiver recalculates the checksum and compares it to the received checksum to detect if any errors have occurred.
+
+<img width="896" alt="Screen Shot 2024-06-08 at 7 46 46 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/2fdfe4b3-fbab-49a7-984e-26383b8b6209">
+
+****Frame Check Sequence (FCS):**** The sender appends a cyclic redundancy check (CRC) value to the end of the frame. The receiver calculates the CRC on the received data and compares it to the FCS to detect errors.
+
+##### CSMA
+
+CSMA stands for Carrier Sense Multiple Access, and it is a media access control (MAC) protocol used in computer networking, particularly in local area networks (LANs).
+
+CSMA is a contention-based access method, which means that multiple devices on the network can access the shared communication medium (e.g., a wired Ethernet or wireless network) simultaneously, and they use a specific mechanism to avoid or resolve collisions.
+
+The core principles of CSMA are:
+
+Carrier Sense:
+Before transmitting data, a device listens to the communication medium to check if it is currently being used by another device.
+If the medium is detected as busy (i.e., another device is transmitting), the device waits for the medium to become available before attempting to transmit.
+Multiple Access:
+Multiple devices on the network can access the shared communication medium and transmit data.
+The CSMA protocol defines the rules and mechanisms that allow these devices to share the medium effectively.
 
 <div align="right">
   <b><a href="#top">↥ back to top</a></b>
@@ -118,6 +146,12 @@ The router, a Network Layer device, is responsible for forwarding data packets b
 </br>
 
 ---
+
+
+
+
+
+
 
 ### IP Address: Network Layer
 
