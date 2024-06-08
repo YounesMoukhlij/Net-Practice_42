@@ -65,8 +65,7 @@ Lets start with a brief introduction of OSI Model (The Open Systems Interconnect
   
   <br/>
   -- 3rd step : Determine Protocol -> TCP or UDP.
-<p align="centre">
-<img width="300" height="300" alt="Screen Shot 2024-06-08 at 3 30 08 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/b6b8c1cc-2842-4b1f-9bcb-dce78102c9ad">
+<p align="centre" <img width="450" height="400" alt="Screen Shot 2024-06-08 at 3 30 08 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/b6b8c1cc-2842-4b1f-9bcb-dce78102c9ad"> /p>
   
 * Reliability:
 TCP is a connection-oriented protocol, which means it establishes a reliable, end-to-end connection between the communicating devices. It ensures that data is delivered in the correct order and without any errors.
