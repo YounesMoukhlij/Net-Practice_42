@@ -1,8 +1,9 @@
-# Guide to NetPractice
+# NetPractice
 
 <p align="center">
 <img src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/28d056b9-59b6-4986-bd53-421afb7d8668" w alt="mask">
 
+42 school's net_practice project is an introduction to IP addressing, subnet masks and routing. In a training interface, we must solve networking errors over 10 levels.
 
 <div id="top"></div>
 
@@ -21,6 +22,53 @@
 
 ## Important Concepts
 
+In order to have the ability to send packages between two IP-addresses they either need to be part of the same network or they need to be connected by a router which is part of both subnets.
+
+
+## Special IP-ranges
+
+The following special address-ranges are reserved for Private Networks:<br>
+`10.0.0.0 – 10.255.255.255`<br>
+`172.16.0.0 – 172.31.255.255`<br>
+`192.168.0.0 – 192.168.255.255`<br>
+
+The following address-range is reserved for so called loopback addresses:<br>
+`127.0.0.0 – 127.255.255.255`
+
+
+There is some more special ip-ranges, but for this project, you only need to remember those above.
+
+## Masks
+
+The network-mask, subnet-mask or in our project only called mask is there to decide which range of ip-adresses are part of the same subnet.<br>
+There are 2 different ways of writing the mask:
+
+- "Dot-decimal notation": `255.255.255.0`
+- "Class Inter-Domain Routing" or "CIDR": `/24`
+
+
+The more usable ip-addresses you need in one subnet, the less subnets you will be able to create.<br>
+To help you understanding it, I found this table very helpful:
+
+
+| CIDR | Dot-decimal | Number of IP-addresses<br /> per subnet | Usable IP-addresses <br /> per subnet | Number of subnets |
+| :---: | :-----------: | :---: | :---: | :---: |
+| /32 | 255.255.255.255 | 1 | 0 | 256 |
+| /31 | 255.255.255.254 | 2 | 0 | 128 |
+| /30 | 255.255.255.252 | 4 | 2 | 64 |
+| /29 | 255.255.255.248 | 8 | 6 | 32 |
+| /28 | 255.255.255.240 | 16 | 14 | 16 |
+| /27 | 255.255.255.224 | 32 | 30 | 8 |
+| /26 | 255.255.255.192 | 64 | 62 | 4 |
+| /25 | 255.255.255.128 | 128 | 126 | 2 |
+| /24 | 255.255.255.0 | 256 | 254 | 1 |
+
+
+The number of usable IP-addresses per subnet is lower than the total number of IP's because the first address is reserved as the network-address of the subnet and the last address is reserved as a broadcast-adress.<br>
+i.e. for mask `255.255.255.252`:<br>
+network: `190.3.2.252`<br>
+broadcast: `190.3.2.255`<br>
+usable IP's: `190.3.2.253`, `190.3.2.254`
 ## OSI Model :
 
 ![osi_model_7_layers](https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/9421fb56-f5f7-4be5-a5e0-c4f33250ec9e)
