@@ -61,13 +61,12 @@ Lets start with a brief introduction of OSI Model (The Open Systems Interconnect
 <img width="1000" height="500" alt="Screen Shot 2024-06-08 at 5 03 23 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/ba1feab8-c497-4324-9de4-f9986c13d9c9">
 
   -- ***1st step : Segmentation*** -> Transform data into small packets, which gives to each packet with order (port number, sequence number). 
-  <br/>
+
   -- ***2nd step : Flow Control*** -> Lets imagine this example a computer with a phone.
   the computer's and phone's speed of transforming data is 100 Mbps and 10 Mbps, if the computer starts transforming data with a speed more than 10 Mbps the phone sends a message to the computer to lower the speed down so the phone could recieve packets proberly.
-  
-  <br/>
+
   -- ***3rd step : Determine Protocol*** -> TCP or UDP.
-  </br>
+ 
 <p align="center">
   <img width="450" height="400" alt="Screen Shot 2024-06-08 at 3 30 08 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/b6b8c1cc-2842-4b1f-9bcb-dce78102c9ad"/> 
 </p>
@@ -75,23 +74,22 @@ Lets start with a brief introduction of OSI Model (The Open Systems Interconnect
 * Reliability:
 TCP is a connection-oriented protocol, which means it establishes a reliable, end-to-end connection between the communicating devices. It ensures that data is delivered in the correct order and without any errors.
 UDP is a connectionless protocol, which means it does not establish a dedicated connection. It simply sends data packets without any guarantee of delivery, order, or error-checking.
-  <br/>
+
 * Connection Establishment:
 TCP requires a three-way handshake to establish a connection before data can be exchanged, ensuring that both ends are ready to communicate.
 UDP does not require any connection establishment process. Clients can simply send data to the server without any prior arrangement.
-  <br/>
+
 * Flow Control and Congestion Control:
 TCP implements flow control and congestion control mechanisms to manage the rate of data transmission and prevent network congestion.
 UDP does not have any built-in flow control or congestion control mechanisms, making it more susceptible to network congestion.
-  <br/>
+
 * Overhead:
 TCP has a higher overhead due to the additional mechanisms required for reliable data transfer, such as acknowledgments, retransmissions, and sequence numbers.
 UDP has a lower overhead as it does not need to maintain a connection or handle reliability, making it more efficient for certain types of applications.
-  <br/>
+
 * Use Cases:
 TCP is commonly used for applications that require reliable data transmission, such as web browsing, file transfers, and email.
 UDP is often used for applications that prioritize speed over reliability, such as real-time applications (e.g., video streaming, online gaming, and VoIP).
-  <br/>
 
 TCP stands for **Transmission Control Protocol**. It is a communications standard that enables application programs and devices to exchange messages over a network. It is used to send packets across the internet.
 
