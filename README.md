@@ -1,5 +1,7 @@
 # Guide to NetPractice
 
+<p align="center">
+<img src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/28d056b9-59b6-4986-bd53-421afb7d8668" w alt="mask">
 ![netpractice logo](img/NetPractice.png)
 
 <div id="top"></div>
@@ -21,8 +23,6 @@
 ### TCP/IP: Transport Layer
 
 </br>
-<p align="center">
-<img src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/28d056b9-59b6-4986-bd53-421afb7d8668" w alt="mask">
 
 
 
