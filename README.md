@@ -20,29 +20,33 @@
 
 ## Important Concepts
 
-### TCP/IP :
+## TCP/IP :
 
-## OSI Model :
+### OSI Model :
 
 ![osi_model_7_layers](https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/9421fb56-f5f7-4be5-a5e0-c4f33250ec9e)
 
 Lets start with a brief introduction of OSI Model (The Open Systems Interconnection), it describes seven layers that computer systems use to communicate over a network. It was the first standard model for network communications, adopted by all major computer and telecommunication companies in the early 1980s.
 
-# Application Layer :
+#### Application Layer :
 
 <p align="centre">
  <img width="1000" height="500" alt="Screen Shot 2024-06-08 at 1 15 38 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/c75f4abf-d58b-4421-a148-e36006cab9b3" alt="mask">
 
 - The application layer is the layer closest to the user and is where application-specific protocols and services reside. It defines how applications communicate with each other and handles tasks such as file transfer, email, and web browsing.
 
-# Presentaion Layer :
+#### Presentaion Layer :
 
 <p align="centre">
 <img width="1000" height="500" alt="Screen Shot 2024-06-08 at 1 17 45 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/63facc4b-08c6-4a29-b1ae-6d736e488fbc">
 
 - The presentation layer is responsible for translating data between different formats and encodings. It ensures that data sent by one application can be understood by another, even if they use different data representations.
 
-# Session Layer :
+  -- 1st step : Translation -> Transform data into binary code.
+  -- 2nd step : Compression -> Make data light. (When you send a message with WhatsApp you may had noticed that the                    picture's / video's size is less than its old size)
+  -- 3rd step : Crypting / Decrypting -> Make the data invincible.
+
+#### Session Layer :
 
 
 
