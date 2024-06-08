@@ -75,13 +75,14 @@ i.e. for mask `255.255.255.252`:<br>
 network: `190.3.2.252`<br>
 broadcast: `190.3.2.255`<br>
 usable IP's: `190.3.2.253`, `190.3.2.254`
-## OSI Model :
+
+## OSI Model:
 
 ![osi_model_7_layers](https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/9421fb56-f5f7-4be5-a5e0-c4f33250ec9e)
 
 Lets start with a brief introduction of OSI Model (The Open Systems Interconnection), it describes seven layers that computer systems use to communicate over a network. It was the first standard model for network communications, adopted by all major computer and telecommunication companies in the early 1980s.
 
-#### Application Layer :
+#### Application Layer:
 
 <p align="centre">
  <img width="1000" height="500" alt="Screen Shot 2024-06-08 at 1 15 38 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/c75f4abf-d58b-4421-a148-e36006cab9b3" alt="mask">
@@ -407,6 +408,8 @@ A routing table is a data table stored in a router or a network host that lists 
 - **Destination**: The destination specifies a network address on which a host is the end target of the packets. The route of `default` or `0.0.0.0/0`, is the route that takes effect when no other route is available for an IP destination address. The default route will use the next-hop address to send the packets on their way without giving a specific destination. The default route will match any network.
 
 - **Next hop**: The next hop refers to the next closest router a packet can go through. It is the IP address of the next router on the packet's way. Every single router maintains its routing table with a next hop address.
+
+**Autor** Younes Moukhlij.
 
 <div align="right">
   <b><a href="#top">↥ back to top</a></b>
@@ -844,7 +847,6 @@ With the IP addresses already entered (greyed out), let's examine the ranges cov
 
 The only IP addresses left for the network "Router R2 to Client H3" are **70.101.30.192 - 70.101.30.251**. We can pick any mask that will let us take 2 IP addresses from that range to put in _Interface R22_ and _Interface R31_.
 
-**Autor** Younes Moukhlij.
 
   <div align="right">
   <b><a href="#top">↥ back to top</a></b>
