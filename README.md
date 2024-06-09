@@ -283,8 +283,11 @@ When a network is connected to the internet, it cannot use an IP address from th
 </br>
 <p align="center">
   <kbd><img src="https://github.com/lpaube/NetPractice/blob/main/img/mask1.png?raw=true" height=250 alt="mask"></kbd>
+  <img width="947" alt="Screen Shot 2024-06-05 at 3 03 23 PM" src="https://github.com/YounesMoukhlij/Net-Practice_42/assets/123767564/ffb137e6-ee79-41ad-8bdb-58ef95acb57a">
 </p>
 </br>
+
+
 
 A subnet mask is a 32 bits (4 bytes) address used to distinguish between a network address and a host address in the IP address. It defines the range of IP addresses that can be used within a network or a subnet.
 </br>
