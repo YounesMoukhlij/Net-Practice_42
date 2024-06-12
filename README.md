@@ -8,8 +8,11 @@
 ## Project Infos :
 
 Common Core Project.
+<br>
 Validated : Grade: 100%.
+<br>
 Check out my GitHub profile [Younes Moukhlij](https://github.com/YounesMoukhlij)
+<br>
 
 <div id="top"></div>
 
